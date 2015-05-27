@@ -45,3 +45,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Twitter Bootstrap Bundle
 gem "twitter-bootstrap-rails"
+# FontAwesome Icon Bundle
+gem "font-awesome-rails"
+#Form Generator Bundle
+gem 'simple_form'
+# Haml HTML5 Templating
+gem "haml-rails"
+

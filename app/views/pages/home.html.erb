@@ -1,2 +1,18 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+      <div class="jumbotron text-center">
+        <h1><i class="fa fa-dashcube"></i>SMS-226</h1>
+
+        <!-- if current_user -->
+            <p>Bienvenue sur votre Platforme de Gestion  des APPELS, SMS, et MMS</p>
+            <%= link_to "<i class='fa fa-pencil-square-o'></i> Nouveau SMS".html_safe, "#", class: "btn btn-success btn-lg btn-md btn-block" %>
+            <%= link_to "<i class='fa fa-phone-square'></i> Nouvel Appel".html_safe, "#", class: "btn btn-primary btn-lg btn-md btn-block" %>
+        <!-- else -->
+            <p>Platform de Gestion  des APPELS, SMS, MMS</p>
+            <%= link_to "<i class='fa fa-pencil-square-o'></i> Sign up".html_safe, "#", class: "btn btn-success btn-lg btn-md btn-block" %>
+        <!-- end -->
+      </div>
+    </div>
+  </div>
+</div>
